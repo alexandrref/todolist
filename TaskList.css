@@ -1,0 +1,62 @@
+.TaskList{
+	width: 200px;
+	background: #cacaca;
+	border: 3px solid #f8f9f9;
+	border-radius: 10px;
+	float: left;
+	padding: 5px;
+}
+.TaskList_title{
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+}
+
+.addTaskItem{
+	margin: 0 auto;
+}
+.addTaskItem input[type=text]{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.addTask_desc{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.addTask_btn{
+	display: block;
+	padding: 2px;
+	margin: 0 auto;
+	color: #989898;
+	border: none;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.addTask_btn:hover{
+	cursor: pointer;
+	color: #cacaca;
+	background: #989898;
+}
+
+.delTask_btn{
+	display: block;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	height: 20px;
+	color: #ff7979;
+	border: none;
+	font-size: 20px;
+	background: #cacaca;
+}
+
+.delTask_btn:hover{
+	cursor: pointer;
+	color: #cacaca;
+	background: #ff7979;
+}

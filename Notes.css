@@ -1,0 +1,30 @@
+.notesWrapper{
+	margin: 0 auto;
+	width: 980px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.notesWrapper::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.addNote{
+	display: block;
+	padding: 0;
+	margin: 0;
+	width: 20px;
+	height: 20px;
+	color: #989898;
+	border: none;
+	font-size: 20px;
+	background: #fff;
+	float: left;
+}
+
+.addNote:hover{
+	color: #008ada;
+	cursor: pointer;
+}
